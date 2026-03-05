@@ -2,8 +2,6 @@
 
 > **Goal:** build a small, reproducible pipeline that (1) prepares a paired *text ↔ audio* dataset and (2) fine-tunes a TTS model using LoRA, then (3) runs inference (including “voice-style prompting”) on the fine-tuned checkpoint.
 
-This README documents the workflow implemented in **`TTS_Model.ipynb`** and the surrounding dataset-prep steps you developed in Colab.
-
 ---
 
 ## 1) Project Summary
