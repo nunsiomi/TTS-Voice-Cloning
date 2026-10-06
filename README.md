@@ -168,23 +168,7 @@ You export `requirements.txt` via:
 
 ---
 
-## 7) Research Fellowship Write-up Template (Tailor to the Fatima Institute Call)
-
-I **cannot confirm** the institute’s current fellowship requirements from this environment (my web lookup tool failed during this session), so treat this section as a *template* you can tailor to their actual call.
-
-Suggested framing:
-
-1. **Problem statement:** adapting TTS to a new domain/voice with limited data.
-2. **Data contribution:** reproducible pipeline: transcription → fixed-window chunking → HF dataset publication.
-3. **Method:** LoRA fine-tuning of a compact base model (`unsloth/csm-1b`) with explicit stability safeguards.
-4. **Reproducibility:** notebook + exported requirements + dataset hosted on HF.
-5. **Impact:** low-resource speech adaptation, rapid prototyping, deployment readiness.
-
-If you paste the fellowship call link/text, I can rewrite this section to match their scoring rubric.
-
----
-
-## 8) Ethical / Legal Notes (important for fellowships)
+## 7) Ethical / Legal Notes 
 
 - **Data rights:** only train on audio you have the right to use for ML training.
 - **Voice cloning & consent:** if the dataset reflects a real person’s voice, get explicit consent for cloning/imitation.
@@ -193,9 +177,9 @@ If you paste the fellowship call link/text, I can rewrite this section to match 
 
 ---
 
-## 9) Evidence Appendix (from `TTS_Model.ipynb`)
+## 8) Evidence Appendix (from `TTS_Model.ipynb`)
 
-## 10) Contact / Maintainer
+## 9) Contact / Maintainer
 
 - Maintainer: Nunsi
 - Dataset used in training notebook: `Nunsi/tts-data`
